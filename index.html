@@ -48,7 +48,6 @@ const languageCopy={
 function setLanguage(lang){
  const t=languageCopy[lang]||languageCopy.en;
  document.documentElement.lang=lang==="mr"?"mr":"en";
- document.getElementById('opening-eyebrow').textContent=t.openingEyebrow;
  document.getElementById('opening-family').innerHTML=t.family;
  document.getElementById('invite-family').innerHTML=t.family;
  document.getElementById('opening-copy').textContent=t.openingCopy;
